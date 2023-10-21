@@ -13,7 +13,7 @@ AI_NSFW_CONTENT_FILTER: true # Enable NSFW AI detector to detect NSFW prompt on 
 
 LANGUAGE: en # Specify the language code (check 'lang' folder for valid codes)
 
-INSTRUCTIONS: assist # Specify the instruction prompt to use (check 'instructions' folder for valid prompts)
+INSTRUCTIONS: bertha # Specify the instruction prompt to use (check 'instructions' folder for valid prompts)
 # To add custom prompts, create a .txt file like 'custom.txt' in `instructions` folder and set INSTRUCTIONS as 'custom'
 
 Discord: https://discord.gg/6MT3CZauT8
@@ -24,15 +24,20 @@ TRIGGER:
   - bot nickname
   - bot alias
   - bot name
-  - Other bot alias...
+  - bot
 # Define the triggers that the bot should always respond to when in message
 
 DISABLE_PRESENCE: false 
 PRESENCES:
   - How can I assist you?
-  - Currently in {guild_count} guilds
-  - Support at https://discord.gg/6MT3CZauT8
-# List of different presences to be used
+  - GPT-3.5-Turbo-16k-0613
+  - As a llm...
+  - Computer Science!
+  - I am a bot!
+  - Bertha is my name!
+  - Mathematical!
+  - AI tutor bot!
+  # List of different presences to be used
 
 OCR_MODEL_URLS:
   - "https://api-inference.huggingface.co/models/microsoft/trocr-base-printed"
